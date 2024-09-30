@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right bottom, #e7a48c, #339dae);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box{
+ box-shadow: 8px 8px 4px #909090, 8px 8px 0px #575757; ;
+ border: 0.5px solid white;
+ background: transparent;
+ padding:20px;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.passbox{
+    display: flex;
+    justify-content: baseline;
+    justify-content: space-between;
+}
+
+h2{
+margin-bottom: 10px;
+}
+#result{
+    display: inline-block;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: medium;
+    letter-spacing: 2px;
+    padding: 5px;
+    text-overflow: ellipsis;
+}
+#icon{
+    color: black;
+    font-size: large;
+    margin-top:-35px ;
+    margin-left: 93%;
+    cursor: pointer;
+}
+#slider{
+    height: 8px;
+    margin-top: 10px;
+}
+
+.options{
+    margin-top: 8px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.opt{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+input[type="checkbox"]{
+    height: 18px;
+    width: 18px;
+}
+
+button{
+    background-color: rgb(52, 52, 195);
+    color: white;
+    width: 90%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: large;
+    margin: 10px;
+
+
+}
+
